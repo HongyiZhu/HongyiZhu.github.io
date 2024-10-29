@@ -12,7 +12,7 @@ title                    : "Hongyi Zhu, Ph.D."
 title_separator          : "-"
 name                     : &name "Hongyi Zhu"
 description              : &description "personal description"
-url                      : https://hongyizhu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : &url "https://hongyizhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HongyiZhu/hongyizhu.github.io"
 
@@ -22,22 +22,22 @@ repository               : "HongyiZhu/hongyizhu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Hongyi Zhu"
+  pronouns         : "he/his" # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "San Antonio"
-  employer         : "The University of Texas at San Antonio"
-  uri              : # URL
+  employer         : "UTSA"
+  uri              : "https://business.utsa.edu/faculty/profiles/zhu-hongyi.html"
   email            : "Hongyi.Zhu@utsa.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=rhI_TcsAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0000-0001-6794-0230"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Hongyi-Zhu"
   scopus           : # URL
 
   # Repositories and software development
@@ -49,7 +49,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username "bsky.app" 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -102,7 +102,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
